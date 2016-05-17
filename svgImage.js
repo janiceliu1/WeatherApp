@@ -1,0 +1,3 @@
+function submitCity() {
+    alert("submitted");
+}

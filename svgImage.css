@@ -1,0 +1,56 @@
+img.icon {
+	 height: 100px;
+	 margin: 10px;
+}
+
+/* applies to the whole body */
+body{
+     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	background-color: #99aacc;
+	text-align: center;
+	font-size: x-large;
+}		
+
+/* A gradient background for the body */
+#grad {
+  //  background: #99aacc; /* For browsers that do not support gradients */
+  //  background: -webkit-linear-gradient(#99aacc, #99aa88); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#99aacc, #99aa88); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#99aacc, #99aa88); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#99aacc, #99aa88); /* Standard syntax */
+}
+
+/* a picture background for the body */
+#pic {
+     background-image: url("Background_Homepage.svg");
+}
+
+div#cityInput {
+	      float: right;
+}
+
+
+input#city {
+   height: 50px;
+   width: 250px;
+   margin-right: 0;
+   padding-right: 0;
+   vertical-align: top;
+   font-size: 18px;
+}
+
+svg#rightEnd {
+   margin-left: 0;
+   padding-left: 0;
+   vertical-align: top;
+   fill: #557722;
+}
+
+svg#rightEnd:hover {
+  fill: #779944;
+}
+
+text#buttonText {
+     fill: #ffffff;
+     font-size: 18px;
+}

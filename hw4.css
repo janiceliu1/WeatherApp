@@ -1,0 +1,396 @@
+/*background photo*/
+#pic {
+    background-image: url("Background_Homepage.svg");
+}
+
+img {
+    /*height: 50px;*/
+    height: 90%;
+    margin-left: 1px;
+}
+.change_color {
+    fill: white;
+}
+/* A gradient background for the body */
+#grad {
+    background: #99aacc; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#00aadd, #00aa88); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#00aadd, #00aa88); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#00aadd, #00aa88); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#00aadd, #00aa88); /* Standard syntax */
+}
+
+#rainInside {
+    height: 150px;
+}
+/* applies to the whole body */
+body{
+     font-family: "GothaMed", "Lucida GothaBol", sans-serif;
+	background-color: white;
+	text-align: center;
+	font-size: large;
+    color: white;
+     letter-spacing: 2px;
+
+}		
+
+
+#SpiderMan {
+    min-height: 20px;
+    max-height: 20px;
+    height: 20%;
+    min-width: 10px;
+    max-width: 20px;
+    width: 20%;
+    border-radius: 20px;
+    padding-top: 4px;
+    margin: auto;
+    float: right;
+
+}
+/* two id selectors; apply to named elements in the HTML */
+#contents {
+	background-color:#99d8d9;
+    float: right;
+	width: 150px;
+	
+    height:25px;
+    
+	display: inline-block;
+    letter-spacing: 0px;
+    
+
+ border: 1px solid #ffffff;
+    padding: 3px 6px; 
+    border-radius: 5px;
+
+}
+	
+
+
+input#zip {
+    font-size: small;
+    background-color: #99d8d9;
+    height: 20px;
+    width: 120px;
+    float: left;
+        border: none;
+    color: #e6ffff;
+
+    
+    
+}
+
+
+::-webkit-input-placeholder {
+   color:  #e6ffff;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #e6ffff;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #e6ffff;
+}
+
+:-ms-input-placeholder {  
+   color: #e6ffff;
+}
+
+button {
+       color: ivory;
+       font-size: x-large;
+       border: ivory;
+       border-width: 4px;
+       background-color: salmon;
+    float: right;
+}
+
+#rightEnd {
+    float: right;
+    margin-right: 30px;
+    height: 30px;
+    font-size: medium;
+    display: inline;
+}
+h1 {
+    text-align: center;
+}
+
+
+
+/*div {
+    background-color: yellow;    
+    
+}*/
+
+
+
+/*#weatherDisplay {
+    background-color: red;
+    margin-top: 100px;
+    display: inline-block;
+    min-width: 20%;
+    max-width: 20%;
+    float: left;
+    margin-top: 100px;
+
+}*/
+
+
+#title {
+    font-size: xx-large;
+    color: #eda85c;
+    
+    
+}
+
+#today {
+    font-size: x-large;
+    color: #ffffff;
+    /*margin-bottom: 40px;*/
+    position: -1px;
+    background-color: #eda85c;
+text-align: center;
+    width: 20%;
+    height: 40px;
+    border: 1px solid #ffffff;
+    padding: 1px 3px; 
+    padding-top: 10px;
+        border-radius: 5px;
+    margin-bottom: -5px;
+
+}
+
+
+#Date {
+    margin-top: 10px;
+    font-size: large;
+    text-align: center;
+}
+
+#Day {
+    margin-top: 10px;
+    font-size: large;
+    text-align: center;
+}
+
+div#\30 {
+    background-color: #75bfc3;
+    min-width: 20%;
+    max-width: 20%;
+    float: left;
+    min-height: 500px;
+    max-height: 500px;
+    
+   
+
+}
+
+div#\31 {
+    background-color: #85c8d0;
+    min-width: 20%;
+    max-width: 20%;
+    float: left;
+    text-align: center;
+        min-height: 500px;
+    max-height: 500px;
+    border: white;
+    
+
+}
+
+div#\32 {
+    background-color: #85c8d0;
+    min-width: 20%;
+    max-width: 20%;
+    float: left;
+        min-height: 500px;
+    max-height: 500px;
+} 
+
+div#\33 {
+    background-color:  #85c8d0;
+    min-width: 20%;
+    max-width: 20%;
+    float: left;
+        min-height: 500px;
+    max-height: 500px;
+
+}
+
+div#\34 {
+    background-color: #85c8d0;
+   min-width: 20%;
+    max-width: 20%;
+    float: left;
+        min-height: 500px;
+    max-height: 500px;
+}
+
+
+
+
+
+#high0 {
+    height: 15px;
+ /*   float: left;*/
+    margin-right: 2px;
+}
+
+
+#low0 {
+    height: 15px;
+   /* float: left;*/
+    margin-right: 2px;
+}
+
+#firstDay {
+    float: left;
+    margin-left: 25px;
+    display: inline-block;
+}
+
+#curTemp {
+    display: inline-block;
+    font-size: x-large;
+    
+}
+
+
+#current {
+    float: right;
+    font-size: xx-large;
+    display: inline-block;
+    
+}
+
+#curTemp {
+    display: inline-block;
+    font-size: xx-large;
+}
+
+
+#high1 {
+    height: 15px;
+    display: inline-block;
+    margin-right: 2px;
+}
+
+
+#low1 {
+    height: 15px;
+    display: inline-block;
+    margin-right: 2px;
+
+}
+
+#high2 {
+    height: 15px;
+    display: inline-block;
+        margin-right: 2px;
+
+}
+
+
+#low2 {
+    height: 15px;
+    display: inline-block;
+    margin-right: 2px;
+
+}
+
+#high3 {
+    height: 15px;
+    display: inline-block;
+        margin-right: 2px;
+
+}
+
+
+#low3 {
+    height: 15px;
+    display: inline-block;
+    margin-right: 2px;
+
+}
+
+#high4 {
+    height: 15px;
+    display: inline-block;
+        margin-right: 2px;
+
+}
+
+
+#low4 {
+    height: 15px;
+    display: inline-block;
+    margin-right: 2px;
+
+}
+
+
+#rain {
+ width: 20px;
+    height: 20px;  
+    display: inline-block;/* margin-left: px;*/
+    float: left;
+}
+
+
+#wind {
+     width: 20px;
+    height: 20px;
+    display: inline-block;
+    float: right;
+}
+
+#extraRain {
+    display: inline-block;
+    float: left;
+    margin-left: 20%;
+    margin-bottom: 5%;
+    height: 50%;
+     width: 50px;
+
+}
+
+#extraWind {
+    display: inline-block;
+    float: right;
+    margin-right: 20%;
+    margin-bottom: 5%;
+    width: 50px;
+    height: 50px;
+}
+
+
+
+
+
+footer { 
+  position: absolute;
+    bottom: 0;
+    max-height: 50px;
+    max-width: 100px;
+    float: left;
+
+ 
+    
+
+}
+
+/*#rain {
+    float: left;
+}
+
+#wind {
+    float: right;
+}*/
+
+
+
+
+/*display: none for transitions*/
